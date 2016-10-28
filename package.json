@@ -1,0 +1,27 @@
+{
+  "name": "dotnet-jasmine",
+  "version": "1.0.0",
+  "description": "teting testing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp-build": "gulp",
+    "gulp-watch": "gulp watch",
+    "karma-start": "karma start"
+  },
+  "author": "nelius de lange",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "2.5.36",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-tsc": "^1.2.4",
+    "jasmine": "2.5.2",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "typescript": "2.0.3",
+    "watchify": "^3.7.0"
+  }
+}
